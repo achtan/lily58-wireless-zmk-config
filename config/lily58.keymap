@@ -86,7 +86,7 @@
 &trans  &kp EXCL                &kp AT              &kp LEFT_BRACE                  &kp RIGHT_BRACE          &kp PIPE                         &kp MINUS  &kp N7                &kp N8             &kp N9          &kp ASTERISK            &trans
 &trans  &hml LEFT_CONTROL HASH  &hml LSHIFT DOLLAR  &hml LEFT_ALT LEFT_PARENTHESIS  &hml RIGHT_COMMAND RPAR  &kp AMPERSAND                    &kp EQUAL  &hml LEFT_COMMAND N4  &hml RIGHT_ALT N5  &hml RSHIFT N6  &hml RIGHT_CONTROL SQT  &trans
 &trans  &kp GRAVE               &kp CARET           &kp LBKT                        &kp RBKT                 &kp TILDE      &trans    &trans  &kp PLUS   &kp NUMBER_1          &kp NUMBER_2       &mt PERIOD N3   &kp BACKSLASH           &trans
-                                                    &trans                          &trans                   &trans         &trans    &trans  &kp N0     &trans
+                                                    &trans                          &trans                   &trans         &trans    &trans  &trans     &kp N0
             >;
         };
 
