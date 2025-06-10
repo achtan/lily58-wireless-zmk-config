@@ -44,12 +44,12 @@
 
         caps-combo {
             bindings = <&caps_word>;
-            key-positions = <16 19>;
+            key-positions = <28 31>;
         };
 
         kp_ {
             bindings = <&kp UNDERSCORE>;
-            key-positions = <29 30>;
+            key-positions = <44 41>;
             layers = <2>;
         };
     };
@@ -60,14 +60,12 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp ESC    &kp N1               &kp N2             &kp N3           &kp N4                 &kp N5                                     &kp N6     &kp N7               &kp N8            &kp N9              &kp N0                       &kp GRAVE
-&kp TAB    &kp Q                &kp W              &kp E            &kp R                  &kp T                                      &kp Y      &kp U                &kp I             &kp O               &kp P                        &kp MINUS
-&kp LCTRL  &hml LEFT_CONTROL A  &hml LEFT_SHIFT S  &hml LEFT_ALT D  &hml RIGHT_COMMAND F   &kp G                                      &kp H      &hmr LEFT_COMMAND J  &hmr RIGHT_ALT K  &hmr RIGHT_SHIFT L  &hmr LEFT_CONTROL SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z                &kp X              &kp C            &kp V                  &kp B        &kp LBKT     &kp RBKT         &kp N      &kp M                &kp COMMA         &kp DOT             &kp FSLH                     &kp RSHFT
-                                                   &kp LALT         &mt LEFT_SHIFT ESCAPE  &lt 1 SPACE  &lt 2 TAB    &lt 2 BACKSPACE  &kp ENTER  &kp RIGHT_SHIFT      &kp RGUI
+&kp ESC    &kp N1               &kp N2             &kp N3            &kp N4                 &kp N5                                     &kp N6     &kp N7               &kp N8            &kp N9              &kp N0                       &kp GRAVE
+&kp TAB    &kp Q                &kp W              &kp E             &kp R                  &kp T                                      &kp Y      &kp U                &kp I             &kp O               &kp P                        &kp MINUS
+&kp LCTRL  &hml LEFT_CONTROL A  &hml LEFT_SHIFT S  &hml LEFT_ALT D   &hml RIGHT_COMMAND F   &kp G                                      &kp H      &hmr LEFT_COMMAND J  &hmr RIGHT_ALT K  &hmr RIGHT_SHIFT L  &hmr LEFT_CONTROL SEMICOLON  &kp SQT
+&kp LSHFT  &kp Z                &kp X              &kp C             &kp V                  &kp B        &kp LBKT     &kp RBKT         &kp N      &kp M                &kp COMMA         &kp DOT             &kp FSLH                     &kp RSHFT
+                                                   &kp LEFT_COMMAND  &mt LEFT_SHIFT ESCAPE  &lt 1 SPACE  &lt 2 TAB    &lt 2 BACKSPACE  &kp ENTER  &kp RIGHT_SHIFT      &kp RGUI
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         nav {
@@ -79,8 +77,6 @@
 &trans      &kp LG(TILDE)  &kp LG(X)     &kp LG(C)     &kp LG(V)     &trans        &trans    &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp RBRC  &kp PIPE
                                          &trans        &trans        &trans        &trans    &trans  &trans    &trans         &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         num {
@@ -92,8 +88,6 @@
 &trans  &kp GRAVE               &kp CARET           &kp LBKT                        &kp RBKT                 &kp TILDE      &trans    &trans  &kp PLUS   &kp NUMBER_1          &kp NUMBER_2       &mt PERIOD N3   &kp BACKSLASH           &trans
                                                     &trans                          &trans                   &trans         &trans    &trans  &kp N0     &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         extra_1 { status = "reserved"; };
